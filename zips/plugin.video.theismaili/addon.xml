@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.theismaili" name="The.Ismaili" version="2020.01.26" provider-name="JohnDoe27">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0" />
+        <import addon="script.module.requests" />
+		<import addon="plugin.video.youtube" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">the.Ismaili | The official website of the Ismaili Muslim community.</summary>
+        <description lang="en">"The official website of the Shia Ismaili Muslims, a community of ethnically and culturally diverse peoples living in over 25 countries around the world, united in their allegiance to His Highness Prince Karim Aga Khan (known to the Ismailis as Mawlana Hazar Imam), the 49th hereditary Imam (spiritual leader) and direct descendant of Prophet Muhammad (peace be upon him and his family)."
+        </description>
+        <disclaimer lang="en">The content provided in this application is available free on public domain. I do not host any content. I am just providing the way to stream, All content is the copyright of their owner. The author does not have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+        <forum></forum>
+        <website>https://the.ismaili</website>
+        <genre>"Ismaili,Shia,Muslim,Islam,Jamat,Jamatkhana,Aga Khan,Imam,Ismaili Imam,Hazar Imam,Mawlana Hazar Imam"</genre>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
